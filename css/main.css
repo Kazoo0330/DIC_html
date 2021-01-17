@@ -1,0 +1,64 @@
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+}
+
+.link li {
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    max-width: 1000px;
+}
+
+.container {
+  position: relative;
+  width: 470px;
+  height: 470px;
+}
+
+.container::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 15px 15px white;
+}
+
+.drop-shadow {
+    width: 470px;
+    height: 470px;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: white;
+}
+
+.bottom_menu {
+    margin-top: 15px;
+}
+
+footer {
+    height: 60px;
+    background-color: #a39186;
+}
